@@ -3,6 +3,12 @@ import * as S from "./style";
 import Balloon from "../../../assets/pictures/balloon.png"
 import Montains from "../../../assets/pictures/montains.png"
 import Beach from "../../../assets/pictures/beach.png"
+import XP1 from "../../../assets/pictures/xp1.png"
+import XP2 from "../../../assets/pictures/xp2.png"
+import XP3 from "../../../assets/pictures/xp3.png"
+import XP4 from "../../../assets/pictures/xp4.png"
+import XP5 from "../../../assets/pictures/xp5.png"
+import XP6 from "../../../assets/pictures/xp6.png"
 
 export default function Main(){
     return(
@@ -70,6 +76,22 @@ export default function Main(){
                     <S.BtLocation>Amazônia</S.BtLocation>
                 </S.AM>
             </S.Attractions>
+            <S.XP>
+                <S.XPPhrase>use a hastag #brasilisverigudi</S.XPPhrase>
+                <S.XPPhrase1>Nosso mural de Experiências</S.XPPhrase1>
+                <S.XPAll>
+                    <S.XPImg1>
+                        <S.ImgXP src={XP1}/>
+                        <S.ImgXP src={XP2}/>
+                        <S.ImgXP src={XP3}/>
+                    </S.XPImg1>
+                    <S.XPImg2>
+                        <S.ImgXP src={XP4}/>
+                        <S.ImgXP src={XP5}/>
+                        <S.ImgXP src={XP6}/>
+                    </S.XPImg2>
+                </S.XPAll>
+            </S.XP>
         </S.Main>
     )
 }

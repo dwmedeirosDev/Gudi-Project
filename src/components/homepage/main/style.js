@@ -357,6 +357,10 @@ export const Phrase2Trip3 = styled.h1`
     @media (max-width: 1308px){
         font-size: 3.6rem;
     }
+
+    @media (max-width: 423px){
+        font-size: 3.3rem;
+    }
 `
 
 export const Phrase3Trip3 = styled.h4`
@@ -391,7 +395,6 @@ export const Attractions = styled.div`
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 50px;
 `
 
 export const BtLocation = styled.button`
@@ -401,9 +404,10 @@ export const BtLocation = styled.button`
     font-family: ArgentumRegular;
     color: #FFFFFF;
     border: 2px solid #FFFFFF;
-    background-color: #FFFFFF50;
+    background-color: #FFFFFF60;
     border-radius: 25px;
     margin: 4% 0 5% 10%;
+    transition: 0.1s all;
     
 
     &:hover{
@@ -413,39 +417,108 @@ export const BtLocation = styled.button`
 
 export const RJ = styled.div`
     width: 280px;
+    height: 250px;  
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(${RiodeJaneiro});
     background-size: cover;
-    height: 250px;
-    
+    margin: 2%;   
 `
 export const RO = styled.div`
-    width: 300px;
+    width: 280px;
+    height: 250px;
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(${RiodasOstras});
     background-size: cover;
-    height: 250px;
+    margin: 2%;  
 `
 
 export const CN = styled.div`
-    width: 300px;
+    width: 280px;
+    height: 250px; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(${Caldasnovas});
     background-size: cover;
-    height: 250px;
+    margin: 2%; 
 `
 export const AM = styled.div`
-    width: 300px;
+    width: 280px;
+    height: 250px; 
     display: flex;
     justify-content: center;
     align-items: center;
     background-image: url(${Amazonia});
     background-size: cover;
-    height: 250px;
+    margin: 2%;  
+`
+
+export const XP = styled.div`
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+`
+
+export const XPPhrase = styled.p`
+    color: #8B8B8B;
+    font-size: 1rem;
+    font-family: ArgentumRegular;
+`
+
+export const XPPhrase1 = styled.h1`
+    color: #8B8B8B;
+    font-family: ArgentumRegular;
+    font-weight: bolder;
+    font-size: 2.4rem;
+    width: 30%;
+    text-align: center;
+    
+
+    @media (max-width: 1012px){
+        width: 40%;
+    }
+
+    @media (max-width: 640px){
+        width: 50%;
+    }
+
+    @media (max-width: 534px){
+        width: 100%;
+    }
+`
+
+export const XPAll = styled.div`
+    margin: 30px
+`
+
+export const XPImg1 = styled.div`
+    @media (max-width: 997px){
+        display: flex;
+        flex-direction: column;
+    }
+`
+
+export const XPImg2 = styled.div`
+    @media (max-width: 997px){
+        display: flex;
+        flex-direction: column;
+    }
+`
+
+export const ImgXP = styled.img`
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+    transition: 0.1s all;
+    
+
+    &:hover{
+        transform: scale(1.1);
+        border-radius: 30px;
+    }
 `
