@@ -40,7 +40,7 @@ export const TextSearch = styled.h1`
         text-align: center;
     }
 
-    @media (max-width: 850px){
+    @media (max-width: 520px){
         width: 100%;
     }
 `
