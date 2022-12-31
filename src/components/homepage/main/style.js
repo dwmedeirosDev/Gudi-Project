@@ -202,16 +202,9 @@ export const FigureTrip2 = styled.figure`
     }
 `
 
-export const ImgTrip2 = styled.img`
-    width: 100%;
-    object-fit: cover;
-    height: 100%;
-    overflow: hidden;
-`
-
 export const ContentTrip2 = styled.div`
      width: 50%;
-     background-image: linear-gradient(#005BD5, #002E6B);
+     background-color: #FFFFFF;
 
      @media (max-width: 1195px){
         width: 100%;
@@ -230,12 +223,112 @@ export const ContentTitle2 = styled.div`
 
 export const Stripe2 = styled.div`
     display: flex;
+    border: 1px solid #005BD5;
+    background-color: #005BD5;
+    width: 75px;   
+`
+
+export const Phrase1Trip2 = styled.h3`
+    font-family: ArgentumRegular;
+    color: #005BD5;
+    letter-spacing: 8px;
+    margin-left: 4%;
+    font-weight: lighter;
+`
+
+export const Phrase2Trip2 = styled.h1`
+    width: 70%;
+    margin: 2% 0 0 10%;
+    font-size: 4.5rem;
+    color: #005BD5;
+    font-family: ArgentumRegular;
+
+    @media (max-width: 1464px){
+        font-size: 4rem;
+    }
+
+    @media (max-width: 1308px){
+        font-size: 3.8rem;
+    }
+
+    @media (max-width: 751px){
+        width: 80%;
+    }
+`
+
+export const Phrase3Trip2 = styled.h4`
+    width: 62%;
+    font-family: ArgentumRegular;
+    color: #005BD5;
+    font-weight: lighter;
+    margin: 3% 0 0 10%;
+`
+
+export const ScheduleTrip2 = styled.button`
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #005BD5;
+    background-color: #FFFFFF10;
+    color: #005BD5;
+    font-family: ArgentumRegular;
+    letter-spacing: 3px;
+    transition: 0.1s all;
+    margin: 4% 0 5% 10%;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+
+export const ContainerTrip3 = styled.div`
+    display: flex;
+    height: 100%;
+
+    @media (max-width: 1195px){
+        flex-direction: column;
+        align-items: center;
+    }
+
+`
+
+export const FigureTrip3 = styled.figure`
+    width: 50%;
+
+    @media (max-width: 1195px){
+        width: 100%;
+    }
+`
+
+export const ContentTrip3 = styled.div`
+     width: 50%;
+     background-image: linear-gradient(#005BD5, #002E6B);
+
+     @media (max-width: 1195px){
+        width: 100%;
+     }
+`
+
+export const ContentTitle3 = styled.div`
+    display: flex;
+    align-items: center;
+    padding: 13% 0 0 10%;
+
+    @media (max-width: 1195px){
+        padding: 8% 0 0 10%;
+    }
+`
+
+export const Stripe3 = styled.div`
+    display: flex;
     border: 1px solid #FFFFFF;
     background-color: #FFFFFF;
     width: 75px;   
 `
 
-export const Phrase1Trip2 = styled.h3`
+export const Phrase1Trip3 = styled.h3`
     font-family: ArgentumRegular;
     color: #FFFFFF;
     letter-spacing: 8px;
@@ -243,7 +336,7 @@ export const Phrase1Trip2 = styled.h3`
     font-weight: lighter;
 `
 
-export const Phrase2Trip2 = styled.h1`
+export const Phrase2Trip3 = styled.h1`
     width: 82%;
     margin: 2% 0 0 10%;
     font-size: 4.5rem;
@@ -263,7 +356,7 @@ export const Phrase2Trip2 = styled.h1`
     }
 `
 
-export const Phrase3Trip2 = styled.h4`
+export const Phrase3Trip3 = styled.h4`
     width: 62%;
     font-family: ArgentumRegular;
     color: #FFFFFF;
@@ -271,7 +364,7 @@ export const Phrase3Trip2 = styled.h4`
     margin: 3% 0 0 10%;
 `
 
-export const ScheduleTrip2 = styled.button`
+export const ScheduleTrip3 = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
