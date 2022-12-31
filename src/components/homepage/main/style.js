@@ -381,8 +381,8 @@ export const ScheduleTrip3 = styled.button`
     color: #FFFFFF;
     font-family: ArgentumRegular;
     letter-spacing: 3px;
-    transition: 0.1s all;
     margin: 4% 0 5% 10%;
+    transition: 0.1s all;
     cursor: pointer;
 
     &:hover{
@@ -514,11 +514,116 @@ export const ImgXP = styled.img`
     margin: 10px;
     width: 300px;
     height: 300px;
-    transition: 0.1s all;
-    
+`
+
+export const ContainerOptions = styled.div`
+    display: flex;
+    justify-content: center;
+
+    @media (max-width: 907px){
+        flex-direction: column;
+        align-items: center;
+    }
+`
+
+export const Best = styled.div`
+    width: 200px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #EEEEEE;
+    transition: 0.2s all;
+    cursor: pointer;
 
     &:hover{
         transform: scale(1.1);
-        border-radius: 30px;
     }
+`
+
+export const ImgBest = styled.img`
+`
+
+export const BestText = styled.p`
+    font-family: ArgentumRegular;
+    margin-top: 25px;
+    color: #005BD5;
+`
+
+export const Cities = styled.div`
+    width: 200px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #005BD5;
+    transition: 0.2s all;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+
+export const ImgCities = styled.img``
+
+export const CitiesText = styled.p`
+    font-family: ArgentumRegular;
+    text-align: center;
+    margin-top: 25px;
+    color: #FFFFFF;
+`
+
+export const Points = styled.div`
+    width: 200px;
+    height: 205px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #EEEEEE;
+    transition: 0.2s all;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+
+export const ImgPoints = styled.img``
+
+export const PointsText = styled.p`
+    font-family: ArgentumRegular;
+    margin-top: 25px;
+    color: #005BD5;
+`
+
+export const Restaurant = styled.div`
+    width: 200px;
+    height: 205px;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px;
+    background-color: #005BD5;
+    transition: 0.2s all;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+
+export const ImgRestaurant = styled.img``
+
+export const RestaurantText = styled.p`
+    font-family: ArgentumRegular;
+    margin-top: 25px;
+    color: #FFFFFF;
 `
