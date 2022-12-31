@@ -76,3 +76,216 @@ export const ScheduleSearch = styled.button`
         transform: scale(1.1);
     }
 `
+
+export const ContainerTrip = styled.div`
+    display: flex;
+    height: 100%;
+
+    @media (max-width: 1195px){
+        flex-direction: column;
+        align-items: center;
+    }
+
+`
+
+export const FigureTrip = styled.figure`
+    width: 50%;
+
+    @media (max-width: 1195px){
+        width: 100%;
+    }
+`
+
+export const ImgTrip = styled.img`
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    overflow: hidden;
+`
+
+export const ContentTrip = styled.div`
+     width: 50%;
+     background-image: linear-gradient(#005BD5, #002E6B);
+
+     @media (max-width: 1195px){
+        width: 100%;
+     }
+`
+
+export const ContentTitle = styled.div`
+    display: flex;
+    align-items: center;
+    padding: 13% 0 0 10%;
+
+    @media (max-width: 1195px){
+        padding: 8% 0 0 10%;
+    }
+`
+
+export const Stripe = styled.div`
+    display: flex;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 75px;   
+`
+
+export const Phrase1Trip = styled.h3`
+    font-family: ArgentumRegular;
+    color: #FFFFFF;
+    letter-spacing: 8px;
+    margin-left: 4%;
+    font-weight: lighter;
+`
+
+export const Phrase2Trip = styled.h1`
+    width: 82%;
+    margin: 2% 0 0 10%;
+    font-size: 4.5rem;
+    color: #FFFFFF;
+    font-family: ArgentumRegular;
+
+    @media (max-width: 1464px){
+        font-size: 4rem;
+    }
+
+    @media (max-width: 1308px){
+        font-size: 3.8rem;
+    }
+
+    @media (max-width: 1308px){
+        font-size: 3.6rem;
+    }
+`
+
+export const Phrase3Trip = styled.h4`
+    width: 62%;
+    font-family: ArgentumRegular;
+    color: #FFFFFF;
+    font-weight: lighter;
+    margin: 3% 0 0 10%;
+`
+
+export const ScheduleTrip = styled.button`
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF10;
+    color: #FFFFFF;
+    font-family: ArgentumRegular;
+    letter-spacing: 3px;
+    transition: 0.1s all;
+    margin: 4% 0 5% 10%;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+export const ContainerTrip2 = styled.div`
+    display: flex;
+    height: 100%;
+
+    @media (max-width: 1195px){
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+`
+
+export const FigureTrip2 = styled.figure`
+    width: 50%;
+
+    @media (max-width: 1195px){
+        width: 100%;
+    }
+`
+
+export const ImgTrip2 = styled.img`
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+    overflow: hidden;
+`
+
+export const ContentTrip2 = styled.div`
+     width: 50%;
+     background-image: linear-gradient(#005BD5, #002E6B);
+
+     @media (max-width: 1195px){
+        width: 100%;
+     }
+`
+
+export const ContentTitle2 = styled.div`
+    display: flex;
+    align-items: center;
+    padding: 13% 0 0 10%;
+
+    @media (max-width: 1195px){
+        padding: 8% 0 0 10%;
+    }
+`
+
+export const Stripe2 = styled.div`
+    display: flex;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
+    width: 75px;   
+`
+
+export const Phrase1Trip2 = styled.h3`
+    font-family: ArgentumRegular;
+    color: #FFFFFF;
+    letter-spacing: 8px;
+    margin-left: 4%;
+    font-weight: lighter;
+`
+
+export const Phrase2Trip2 = styled.h1`
+    width: 82%;
+    margin: 2% 0 0 10%;
+    font-size: 4.5rem;
+    color: #FFFFFF;
+    font-family: ArgentumRegular;
+
+    @media (max-width: 1464px){
+        font-size: 4rem;
+    }
+
+    @media (max-width: 1308px){
+        font-size: 3.8rem;
+    }
+
+    @media (max-width: 1308px){
+        font-size: 3.6rem;
+    }
+`
+
+export const Phrase3Trip2 = styled.h4`
+    width: 62%;
+    font-family: ArgentumRegular;
+    color: #FFFFFF;
+    font-weight: lighter;
+    margin: 3% 0 0 10%;
+`
+
+export const ScheduleTrip2 = styled.button`
+    width: 120px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 30px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF10;
+    color: #FFFFFF;
+    font-family: ArgentumRegular;
+    letter-spacing: 3px;
+    transition: 0.1s all;
+    margin: 4% 0 5% 10%;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
