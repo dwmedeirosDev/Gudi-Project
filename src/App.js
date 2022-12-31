@@ -5,8 +5,8 @@ import HomePage from "./components/homepage/homepage";
 export default function App(){
   return(
     <>
-      <GlobalStyle />
-      <HomePage />
+      <GlobalStyle/>
+      <HomePage/>
     </>
   )
 }
