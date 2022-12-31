@@ -1,5 +1,9 @@
 import styled from "styled-components";
 import BackgroundCar from "../../../assets/background/background-car.png";
+import RiodeJaneiro from "../../../assets/pictures/riodejaneiro.png"
+import RiodasOstras from "../../../assets/pictures/riodasostras.png"
+import Caldasnovas from "../../../assets/pictures/caldasnovas.png"
+import Amazonia from "../../../assets/pictures/amazonia.png"
 
 export const Main = styled.main`
 `
@@ -7,7 +11,6 @@ export const Main = styled.main`
 export const Background = styled.div`
     background-image: url(${BackgroundCar});
     background-size: cover;
-    
     height: 70vh;
     display: flex;
     align-items: center;
@@ -381,4 +384,68 @@ export const ScheduleTrip3 = styled.button`
     &:hover{
         transform: scale(1.1);
     }
+`
+
+export const Attractions = styled.div`
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px;
+`
+
+export const BtLocation = styled.button`
+    width: 200px;
+    padding: 8px;
+    cursor: pointer;
+    font-family: ArgentumRegular;
+    color: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    background-color: #FFFFFF50;
+    border-radius: 25px;
+    margin: 4% 0 5% 10%;
+    
+
+    &:hover{
+        transform: scale(1.1);
+    }
+`
+
+export const RJ = styled.div`
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(${RiodeJaneiro});
+    background-size: cover;
+    height: 250px;
+    
+`
+export const RO = styled.div`
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(${RiodasOstras});
+    background-size: cover;
+    height: 250px;
+`
+
+export const CN = styled.div`
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(${Caldasnovas});
+    background-size: cover;
+    height: 250px;
+`
+export const AM = styled.div`
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(${Amazonia});
+    background-size: cover;
+    height: 250px;
 `

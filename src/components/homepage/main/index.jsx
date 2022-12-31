@@ -56,6 +56,20 @@ export default function Main(){
                     <S.ScheduleTrip3>AGENDAR</S.ScheduleTrip3>
                 </S.ContentTrip3>
             </S.ContainerTrip3>
+            <S.Attractions>
+                <S.RJ>
+                    <S.BtLocation>Rio de Janeiro</S.BtLocation>
+                </S.RJ>
+                <S.RO>
+                    <S.BtLocation>Rio das Ostras</S.BtLocation>
+                </S.RO>
+                <S.CN>
+                    <S.BtLocation>Caldas Novas</S.BtLocation>
+                </S.CN>
+                <S.AM>
+                    <S.BtLocation>Amazônia</S.BtLocation>
+                </S.AM>
+            </S.Attractions>
         </S.Main>
     )
 }
