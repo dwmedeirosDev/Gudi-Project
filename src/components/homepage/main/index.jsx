@@ -20,53 +20,53 @@ export default function Main(){
         <S.Main>
             <S.Background>
             <S.Search>
-                <S.TextSearch>Para qual estado você deseja ir ?</S.TextSearch>
-                <S.InputSearch placeholder="Pesquisar" class="input" type="text"/>
-                <S.BtSearch>BUSCAR</S.BtSearch>
+                <S.Text_Search>Para qual estado você deseja ir ?</S.Text_Search>
+                <S.Input_Search placeholder="Pesquisar" class="input" type="text"/>
+                <S.Bt_Search>BUSCAR</S.Bt_Search>
             </S.Search>
             </S.Background>
-            <S.ContainerTrip>
-                <S.FigureTrip>
+            <S.Container_Trip>
+                <S.Figure_Trip>
                     <S.ImgTrip src={Balloon} alt="Balões"/>
-                </S.FigureTrip>
-            <S.ContentTrip>
-                    <S.ContentTitle>
+                </S.Figure_Trip>
+            <S.Content_Trip>
+                    <S.Content_Title>
                         <S.Stripe></S.Stripe>
-                        <S.Phrase1Trip>VIAGENS NACIONAIS</S.Phrase1Trip>
-                    </S.ContentTitle>
-                    <S.Phrase2Trip>O clima perfeito, no lugar perfeito</S.Phrase2Trip>
-                    <S.Phrase3Trip>Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.</S.Phrase3Trip>
-                    <S.BtTrip>AGENDAR</S.BtTrip>
-            </S.ContentTrip>
-            </S.ContainerTrip>
-            <S.ContainerTrip2>
-                <S.ContentTrip2>
-                    <S.ContentTitle2>
+                        <S.Phrase1_Trip>VIAGENS NACIONAIS</S.Phrase1_Trip>
+                    </S.Content_Title>
+                    <S.Phrase2_Trip>O clima perfeito, no lugar perfeito</S.Phrase2_Trip>
+                    <S.Phrase3_Trip>Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.</S.Phrase3_Trip>
+                    <S.Bt_Trip>AGENDAR</S.Bt_Trip>
+            </S.Content_Trip>
+            </S.Container_Trip>
+            <S.Container_Trip2>
+                <S.Content_Trip2>
+                    <S.Content_Title2>
                         <S.Stripe2></S.Stripe2>
-                        <S.Phrase1Trip2>VIAGENS NACIONAIS</S.Phrase1Trip2>
-                    </S.ContentTitle2>
-                    <S.Phrase2Trip2>Curta uma nova vibe entre amigos</S.Phrase2Trip2>
-                    <S.Phrase3Trip2>Rachando a conta ou rachando o bico, a melhor hora para curtir é entre amgiso, conheça nossos <b>Planos Multi</b>.</S.Phrase3Trip2>
-                    <S.BtTrip2>AGENDAR</S.BtTrip2>
-                </S.ContentTrip2>
-                <S.FigureTrip2>
+                        <S.Phrase1_Trip2>VIAGENS NACIONAIS</S.Phrase1_Trip2>
+                    </S.Content_Title2>
+                    <S.Phrase2_Trip2>Curta uma nova vibe entre amigos</S.Phrase2_Trip2>
+                    <S.Phrase3_Trip2>Rachando a conta ou rachando o bico, a melhor hora para curtir é entre amgiso, conheça nossos <b>Planos Multi</b>.</S.Phrase3_Trip2>
+                    <S.Bt_Trip2>AGENDAR</S.Bt_Trip2>
+                </S.Content_Trip2>
+                <S.Figure_Trip2>
                     <S.ImgTrip src={Montains} alt="Montanhas"/>
-                </S.FigureTrip2>
-            </S.ContainerTrip2>
-            <S.ContainerTrip3>
-                <S.FigureTrip3>
+                </S.Figure_Trip2>
+            </S.Container_Trip2>
+            <S.Container_Trip3>
+                <S.Figure_Trip3>
                     <S.ImgTrip src={Beach} alt="Praia"/>
-                </S.FigureTrip3>
-                <S.ContentTrip3>
-                    <S.ContentTitle3>
+                </S.Figure_Trip3>
+                <S.Content_Trip3>
+                    <S.Content_Title3>
                         <S.Stripe3></S.Stripe3>
-                        <S.Phrase1Trip3>VIAGENS NACIONAIS</S.Phrase1Trip3>
-                </S.ContentTitle3>
-                    <S.Phrase2Trip3>Algumas experiências são inexplicáveis</S.Phrase2Trip3>
-                    <S.Phrase3Trip3>Conheça as fontes termais de <b>Caldas Novas, Goiás</b>. Águas quentes, num clima sereno, relaxante e natural.</S.Phrase3Trip3>
-                    <S.BtTrip3>AGENDAR</S.BtTrip3>
-                </S.ContentTrip3>
-            </S.ContainerTrip3>
+                        <S.Phrase1_Trip3>VIAGENS NACIONAIS</S.Phrase1_Trip3>
+                </S.Content_Title3>
+                    <S.Phrase2_Trip3>Algumas experiências são inexplicáveis</S.Phrase2_Trip3>
+                    <S.Phrase3_Trip3>Conheça as fontes termais de <b>Caldas Novas, Goiás</b>. Águas quentes, num clima sereno, relaxante e natural.</S.Phrase3_Trip3>
+                    <S.Bt_Trip3>AGENDAR</S.Bt_Trip3>
+                </S.Content_Trip3>
+            </S.Container_Trip3>
             <S.Attractions>
                 <S.RJ>
                     <S.BtLocation>Rio de Janeiro</S.BtLocation>
@@ -82,48 +82,48 @@ export default function Main(){
                 </S.AM>
             </S.Attractions>
             <S.XP>
-                <S.XPPhrase>use a hastag #brasilisverigudi</S.XPPhrase>
-                <S.XPPhrase1>Nosso mural de Experiências</S.XPPhrase1>
-                <S.XPAll>
-                    <S.XPImg1>
+                <S.XP_Phrase>use a hastag #brasilisverigudi</S.XP_Phrase>
+                <S.XP_Phrase1>Nosso mural de Experiências</S.XP_Phrase1>
+                <S.XP_All>
+                    <S.XP_Img1>
                         <S.ImgXP src={XP1} alt="Mural de Experiências"/>
                         <S.ImgXP src={XP2} alt="Mural de Experiências"/>
                         <S.ImgXP src={XP3} alt="Mural de Experiências"/>
-                    </S.XPImg1>
-                    <S.XPImg2>
+                    </S.XP_Img1>
+                    <S.XP_Img2>
                         <S.ImgXP src={XP4} alt="Mural de Experiências"/>
                         <S.ImgXP src={XP5} alt="Mural de Experiências"/>
                         <S.ImgXP src={XP6} alt="Mural de Experiências"/>
-                    </S.XPImg2>
-                </S.XPAll>
+                    </S.XP_Img2>
+                </S.XP_All>
             </S.XP>
-            <S.ContainerOptions>
+            <S.Container_Options>
                 <S.Best>
                     <img src={Best} alt="O melhor do Brasil"/>
-                    <S.BestText>O melhor do Brasil</S.BestText>
+                    <S.Best_Text>O melhor do Brasil</S.Best_Text>
                 </S.Best>
                 <S.Cities>
                     <img src={Cities} alt="Cidades mais frequentadas"/>
-                    <S.CitiesText>Cidades mais frequentadas</S.CitiesText>
+                    <S.Cities_Text>Cidades mais frequentadas</S.Cities_Text>
                 </S.Cities>
                 <S.Points>
                     <img src={Points} alt="Pontos Turísticos"/>
-                    <S.PointsText>Pontos Turísticos</S.PointsText>
+                    <S.Points_Text>Pontos Turísticos</S.Points_Text>
                 </S.Points>
                 <S.Restaurant>
                     <img src={Restaurants} alt="Restaurantes"/>
-                    <S.RestaurantText>Restaurantes</S.RestaurantText>
+                    <S.Restaurant_Text>Restaurantes</S.Restaurant_Text>
                 </S.Restaurant>
-            </S.ContainerOptions>
-            <S.ContainerMessage>
-                <S.ContentMessage>
+            </S.Container_Options>
+            <S.Container_Message>
+                <S.Content_Message>
                     <S.ContactUs>Fale Conosco</S.ContactUs>
                     <S.InputEmail placeholder="Diga o seu melhor email" type="text" class="input"/>
                     <S.InputAbout placeholder="Assunto" type="text"/>
                     <S.InputMsg placeholder="Escreva sua mensagem" type="text" class="input"/>
                     <S.BtSend>Enviar</S.BtSend>
-                </S.ContentMessage>
-            </S.ContainerMessage>
+                </S.Content_Message>
+            </S.Container_Message>
         </S.Main>
     )
 }

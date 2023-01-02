@@ -32,7 +32,7 @@ export const Search = styled.div`
     }
 `
 
-export const TextSearch = styled.h1`
+export const Text_Search = styled.h1`
     font-family: ArgentumRegular;
     color: #005BD5;
     width: 500px;
@@ -48,7 +48,7 @@ export const TextSearch = styled.h1`
     }
 `
 
-export const InputSearch = styled.input`
+export const Input_Search = styled.input`
     font-family: ArgentumRegular;
     border-radius: 40px;
     border: none;
@@ -62,7 +62,7 @@ export const InputSearch = styled.input`
     }
 `
 
-export const BtSearch = styled.button`
+export const Bt_Search = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -80,7 +80,7 @@ export const BtSearch = styled.button`
     }
 `
 
-export const ContainerTrip = styled.div`
+export const Container_Trip = styled.div`
     display: flex;
     height: 100%;
 
@@ -91,7 +91,7 @@ export const ContainerTrip = styled.div`
 
 `
 
-export const FigureTrip = styled.figure`
+export const Figure_Trip = styled.figure`
     width: 50%;
 
     @media (max-width: 1195px){
@@ -106,7 +106,7 @@ export const ImgTrip = styled.img`
     overflow: hidden;
 `
 
-export const ContentTrip = styled.div`
+export const Content_Trip = styled.div`
      width: 50%;
      background-image: linear-gradient(#005BD5, #002E6B);
 
@@ -115,7 +115,7 @@ export const ContentTrip = styled.div`
      }
 `
 
-export const ContentTitle = styled.div`
+export const Content_Title = styled.div`
     display: flex;
     align-items: center;
     padding: 13% 0 0 10%;
@@ -132,7 +132,7 @@ export const Stripe = styled.div`
     width: 75px;   
 `
 
-export const Phrase1Trip = styled.h3`
+export const Phrase1_Trip = styled.h3`
     font-family: ArgentumRegular;
     color: #FFFFFF;
     letter-spacing: 8px;
@@ -140,7 +140,7 @@ export const Phrase1Trip = styled.h3`
     font-weight: lighter;
 `
 
-export const Phrase2Trip = styled.h1`
+export const Phrase2_Trip = styled.h1`
     width: 82%;
     margin: 2% 0 0 10%;
     font-size: 4.5rem;
@@ -160,7 +160,7 @@ export const Phrase2Trip = styled.h1`
     }
 `
 
-export const Phrase3Trip = styled.h4`
+export const Phrase3_Trip = styled.h4`
     width: 62%;
     font-family: ArgentumRegular;
     color: #FFFFFF;
@@ -168,7 +168,7 @@ export const Phrase3Trip = styled.h4`
     margin: 3% 0 0 10%;
 `
 
-export const BtTrip = styled.button`
+export const Bt_Trip = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -186,7 +186,7 @@ export const BtTrip = styled.button`
         transform: scale(1.1);
     }
 `
-export const ContainerTrip2 = styled.div`
+export const Container_Trip2 = styled.div`
     display: flex;
     height: 100%;
 
@@ -197,7 +197,7 @@ export const ContainerTrip2 = styled.div`
 
 `
 
-export const FigureTrip2 = styled.figure`
+export const Figure_Trip2 = styled.figure`
     width: 50%;
 
     @media (max-width: 1195px){
@@ -205,7 +205,7 @@ export const FigureTrip2 = styled.figure`
     }
 `
 
-export const ContentTrip2 = styled.div`
+export const Content_Trip2 = styled.div`
      width: 50%;
      background-color: #FFFFFF;
 
@@ -214,7 +214,7 @@ export const ContentTrip2 = styled.div`
      }
 `
 
-export const ContentTitle2 = styled.div`
+export const Content_Title2 = styled.div`
     display: flex;
     align-items: center;
     padding: 13% 0 0 10%;
@@ -231,7 +231,7 @@ export const Stripe2 = styled.div`
     width: 75px;   
 `
 
-export const Phrase1Trip2 = styled.h3`
+export const Phrase1_Trip2 = styled.h3`
     font-family: ArgentumRegular;
     color: #005BD5;
     letter-spacing: 8px;
@@ -239,7 +239,7 @@ export const Phrase1Trip2 = styled.h3`
     font-weight: lighter;
 `
 
-export const Phrase2Trip2 = styled.h1`
+export const Phrase2_Trip2 = styled.h1`
     width: 70%;
     margin: 2% 0 0 10%;
     font-size: 4.5rem;
@@ -259,7 +259,7 @@ export const Phrase2Trip2 = styled.h1`
     }
 `
 
-export const Phrase3Trip2 = styled.h4`
+export const Phrase3_Trip2 = styled.h4`
     width: 62%;
     font-family: ArgentumRegular;
     color: #005BD5;
@@ -267,7 +267,7 @@ export const Phrase3Trip2 = styled.h4`
     margin: 3% 0 0 10%;
 `
 
-export const BtTrip2 = styled.button`
+export const Bt_Trip2 = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -286,7 +286,7 @@ export const BtTrip2 = styled.button`
     }
 `
 
-export const ContainerTrip3 = styled.div`
+export const Container_Trip3 = styled.div`
     display: flex;
     height: 100%;
 
@@ -297,7 +297,7 @@ export const ContainerTrip3 = styled.div`
 
 `
 
-export const FigureTrip3 = styled.figure`
+export const Figure_Trip3 = styled.figure`
     width: 50%;
 
     @media (max-width: 1195px){
@@ -305,7 +305,7 @@ export const FigureTrip3 = styled.figure`
     }
 `
 
-export const ContentTrip3 = styled.div`
+export const Content_Trip3 = styled.div`
      width: 50%;
      background-image: linear-gradient(#005BD5, #002E6B);
 
@@ -314,7 +314,7 @@ export const ContentTrip3 = styled.div`
      }
 `
 
-export const ContentTitle3 = styled.div`
+export const Content_Title3 = styled.div`
     display: flex;
     align-items: center;
     padding: 13% 0 0 10%;
@@ -331,7 +331,7 @@ export const Stripe3 = styled.div`
     width: 75px;   
 `
 
-export const Phrase1Trip3 = styled.h3`
+export const Phrase1_Trip3 = styled.h3`
     font-family: ArgentumRegular;
     color: #FFFFFF;
     letter-spacing: 8px;
@@ -339,7 +339,7 @@ export const Phrase1Trip3 = styled.h3`
     font-weight: lighter;
 `
 
-export const Phrase2Trip3 = styled.h1`
+export const Phrase2_Trip3 = styled.h1`
     width: 82%;
     margin: 2% 0 0 10%;
     font-size: 4.5rem;
@@ -363,7 +363,7 @@ export const Phrase2Trip3 = styled.h1`
     }
 `
 
-export const Phrase3Trip3 = styled.h4`
+export const Phrase3_Trip3 = styled.h4`
     width: 62%;
     font-family: ArgentumRegular;
     color: #FFFFFF;
@@ -371,7 +371,7 @@ export const Phrase3Trip3 = styled.h4`
     margin: 3% 0 0 10%;
 `
 
-export const BtTrip3 = styled.button`
+export const Bt_Trip3 = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -464,13 +464,13 @@ export const XP = styled.div`
     align-items: center;
 `
 
-export const XPPhrase = styled.p`
+export const XP_Phrase = styled.p`
     color: #8B8B8B;
     font-size: 1rem;
     font-family: ArgentumRegular;
 `
 
-export const XPPhrase1 = styled.h1`
+export const XP_Phrase1 = styled.h1`
     color: #8B8B8B;
     font-family: ArgentumRegular;
     font-weight: bolder;
@@ -492,18 +492,18 @@ export const XPPhrase1 = styled.h1`
     }
 `
 
-export const XPAll = styled.div`
+export const XP_All = styled.div`
     margin: 30px
 `
 
-export const XPImg1 = styled.div`
+export const XP_Img1 = styled.div`
     @media (max-width: 1120px){
         display: flex;
         flex-direction: column;
     }
 `
 
-export const XPImg2 = styled.div`
+export const XP_Img2 = styled.div`
     @media (max-width: 1120px){
         display: flex;
         flex-direction: column;
@@ -516,7 +516,7 @@ export const ImgXP = styled.img`
     height: 300px;
 `
 
-export const ContainerOptions = styled.div`
+export const Container_Options = styled.div`
     display: flex;
     justify-content: center;
     margin-bottom: 60px;
@@ -544,7 +544,7 @@ export const Best = styled.div`
     }
 `
 
-export const BestText = styled.p`
+export const Best_Text = styled.p`
     font-family: ArgentumRegular;
     margin-top: 25px;
     color: #005BD5;
@@ -567,7 +567,7 @@ export const Cities = styled.div`
     }
 `
 
-export const CitiesText = styled.p`
+export const Cities_Text = styled.p`
     font-family: ArgentumRegular;
     text-align: center;
     margin-top: 25px;
@@ -591,7 +591,7 @@ export const Points = styled.div`
     }
 `
 
-export const PointsText = styled.p`
+export const Points_Text = styled.p`
     font-family: ArgentumRegular;
     margin-top: 25px;
     color: #005BD5;
@@ -614,13 +614,13 @@ export const Restaurant = styled.div`
     }
 `
 
-export const RestaurantText = styled.p`
+export const Restaurant_Text = styled.p`
     font-family: ArgentumRegular;
     margin-top: 25px;
     color: #FFFFFF;
 `
 
-export const ContainerMessage = styled.div`
+export const Container_Message = styled.div`
     width: 100%;
     height: 450px;
     background-color: #005BD5;
@@ -629,7 +629,7 @@ export const ContainerMessage = styled.div`
     justify-content: center;
 `
 
-export const ContentMessage = styled.form`
+export const Content_Message = styled.form`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
