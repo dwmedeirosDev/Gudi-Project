@@ -19,7 +19,7 @@ export const Background = styled.div`
     }
 `
 
-export const Search = styled.div`
+export const Search = styled.form`
     display: flex;
     flex-direction: column;
     height: 45vh;
@@ -62,7 +62,7 @@ export const InputSearch = styled.input`
     }
 `
 
-export const ScheduleSearch = styled.button`
+export const BtSearch = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -168,7 +168,7 @@ export const Phrase3Trip = styled.h4`
     margin: 3% 0 0 10%;
 `
 
-export const ScheduleTrip = styled.button`
+export const BtTrip = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -267,7 +267,7 @@ export const Phrase3Trip2 = styled.h4`
     margin: 3% 0 0 10%;
 `
 
-export const ScheduleTrip2 = styled.button`
+export const BtTrip2 = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -371,7 +371,7 @@ export const Phrase3Trip3 = styled.h4`
     margin: 3% 0 0 10%;
 `
 
-export const ScheduleTrip3 = styled.button`
+export const BtTrip3 = styled.button`
     width: 120px;
     padding: 10px;
     text-align: center;
@@ -497,14 +497,14 @@ export const XPAll = styled.div`
 `
 
 export const XPImg1 = styled.div`
-    @media (max-width: 997px){
+    @media (max-width: 1120px){
         display: flex;
         flex-direction: column;
     }
 `
 
 export const XPImg2 = styled.div`
-    @media (max-width: 997px){
+    @media (max-width: 1120px){
         display: flex;
         flex-direction: column;
     }
@@ -519,6 +519,7 @@ export const ImgXP = styled.img`
 export const ContainerOptions = styled.div`
     display: flex;
     justify-content: center;
+    margin-bottom: 60px;
 
     @media (max-width: 907px){
         flex-direction: column;
@@ -541,9 +542,6 @@ export const Best = styled.div`
     &:hover{
         transform: scale(1.1);
     }
-`
-
-export const ImgBest = styled.img`
 `
 
 export const BestText = styled.p`
@@ -569,8 +567,6 @@ export const Cities = styled.div`
     }
 `
 
-export const ImgCities = styled.img``
-
 export const CitiesText = styled.p`
     font-family: ArgentumRegular;
     text-align: center;
@@ -595,8 +591,6 @@ export const Points = styled.div`
     }
 `
 
-export const ImgPoints = styled.img``
-
 export const PointsText = styled.p`
     font-family: ArgentumRegular;
     margin-top: 25px;
@@ -620,10 +614,103 @@ export const Restaurant = styled.div`
     }
 `
 
-export const ImgRestaurant = styled.img``
-
 export const RestaurantText = styled.p`
     font-family: ArgentumRegular;
     margin-top: 25px;
     color: #FFFFFF;
+`
+
+export const ContainerContact = styled.div`
+    width: 100%;
+    height: 450px;
+    background-color: #005BD5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+`
+
+export const ContentContact = styled.form`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+
+    @media (max-width: 440px){
+        width: 100%;
+    }
+`
+
+export const ContactUs = styled.h2`
+    text-align: center;
+    width: 200px;
+    font-family: ArgentumRegular;
+    color: #FFFFFF;
+`
+
+export const InputEmail = styled.input`
+    border-radius: 16px;
+    width: 400px;
+    height: 30px;
+    padding: 0 0 0px 20px;
+    border: none;
+    
+
+    &::placeholder{
+        color: #AFB3B8;
+    }
+
+    @media (max-width: 440px){
+        width: 85%;
+    }
+`
+
+export const InputAbout = styled.input`
+    border-radius: 16px;
+    width: 400px;
+    height: 30px;
+    padding: 0 0 0px 20px;
+    border: none;
+
+    &::placeholder{
+        color: #AFB3B8;
+    }
+
+    @media (max-width: 440px){
+        width: 85%;
+    }
+`
+
+export const InputMsg = styled.input`
+    border-radius: 16px;
+    width: 400px;
+    padding: 8px;
+    border: none;
+    padding: 0 0 60px 19px;
+    height: 100px;
+
+    &::placeholder{
+        color: #AFB3B8;
+    }
+
+    @media (max-width: 440px){
+        width: 85%;
+    }
+`
+
+export const BtSend = styled.button`
+    width: 150px;
+    border-radius: 30px;
+    padding: 10px;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF10;
+    color: #FFFFFF;
+    font-family: ArgentumRegular;
+    transition: 0.2s all;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.1);
+    }
 `

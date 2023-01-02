@@ -22,7 +22,7 @@ export default function Main(){
             <S.Search>
                 <S.TextSearch>Para qual estado você deseja ir ?</S.TextSearch>
                 <S.InputSearch placeholder="Pesquisar" class="input" type="text"/>
-                <S.ScheduleSearch>BUSCAR</S.ScheduleSearch>
+                <S.BtSearch>BUSCAR</S.BtSearch>
             </S.Search>
             </S.Background>
             <S.ContainerTrip>
@@ -36,7 +36,7 @@ export default function Main(){
                     </S.ContentTitle>
                     <S.Phrase2Trip>O clima perfeito, no lugar perfeito</S.Phrase2Trip>
                     <S.Phrase3Trip>Planeje sua viagem com a sua paquera, compartilhar momentos preciosos juntos não tem preço.</S.Phrase3Trip>
-                    <S.ScheduleTrip>AGENDAR</S.ScheduleTrip>
+                    <S.BtTrip>AGENDAR</S.BtTrip>
             </S.ContentTrip>
             </S.ContainerTrip>
             <S.ContainerTrip2>
@@ -47,7 +47,7 @@ export default function Main(){
                     </S.ContentTitle2>
                     <S.Phrase2Trip2>Curta uma nova vibe entre amigos</S.Phrase2Trip2>
                     <S.Phrase3Trip2>Rachando a conta ou rachando o bico, a melhor hora para curtir é entre amgiso, conheça nossos <b>Planos Multi</b>.</S.Phrase3Trip2>
-                    <S.ScheduleTrip2>AGENDAR</S.ScheduleTrip2>
+                    <S.BtTrip2>AGENDAR</S.BtTrip2>
                 </S.ContentTrip2>
                 <S.FigureTrip2>
                     <S.ImgTrip src={Montains} alt="Montanhas"/>
@@ -64,7 +64,7 @@ export default function Main(){
                 </S.ContentTitle3>
                     <S.Phrase2Trip3>Algumas experiências são inexplicáveis</S.Phrase2Trip3>
                     <S.Phrase3Trip3>Conheça as fontes termais de <b>Caldas Novas, Goiás</b>. Águas quentes, num clima sereno, relaxante e natural.</S.Phrase3Trip3>
-                    <S.ScheduleTrip3>AGENDAR</S.ScheduleTrip3>
+                    <S.BtTrip3>AGENDAR</S.BtTrip3>
                 </S.ContentTrip3>
             </S.ContainerTrip3>
             <S.Attractions>
@@ -99,22 +99,31 @@ export default function Main(){
             </S.XP>
             <S.ContainerOptions>
                 <S.Best>
-                    <S.ImgBest src={Best} alt="O melhor do Brasil"/>
+                    <img src={Best} alt="O melhor do Brasil"/>
                     <S.BestText>O melhor do Brasil</S.BestText>
                 </S.Best>
                 <S.Cities>
-                    <S.ImgCities src={Cities} alt="Cidades mais frequentadas"/>
+                    <img src={Cities} alt="Cidades mais frequentadas"/>
                     <S.CitiesText>Cidades mais frequentadas</S.CitiesText>
                 </S.Cities>
                 <S.Points>
-                    <S.ImgPoints src={Points} alt="Pontos Turísticos"/>
+                    <img src={Points} alt="Pontos Turísticos"/>
                     <S.PointsText>Pontos Turísticos</S.PointsText>
                 </S.Points>
                 <S.Restaurant>
-                    <S.ImgRestaurant src={Restaurants} alt="Restaurantes"/>
+                    <img src={Restaurants} alt="Restaurantes"/>
                     <S.RestaurantText>Restaurantes</S.RestaurantText>
                 </S.Restaurant>
             </S.ContainerOptions>
+            <S.ContainerContact>
+                <S.ContentContact>
+                    <S.ContactUs>Fale Conosco</S.ContactUs>
+                    <S.InputEmail placeholder="Diga o seu melhor email" type="text" class="input"/>
+                    <S.InputAbout placeholder="Assunto" type="text"/>
+                    <S.InputMsg placeholder="Escreva sua mensagem" type="text" class="input"/>
+                    <S.BtSend>Enviar</S.BtSend>
+                </S.ContentContact>
+            </S.ContainerContact>
         </S.Main>
     )
 }
