@@ -156,7 +156,7 @@ export const Phrase2Trip = styled.h1`
     }
 
     @media (max-width: 1308px){
-        font-size: 3.6rem;
+        font-size: 3rem;
     }
 `
 
@@ -255,7 +255,7 @@ export const Phrase2Trip2 = styled.h1`
     }
 
     @media (max-width: 751px){
-        width: 80%;
+        font-size: 3rem;
     }
 `
 
@@ -359,7 +359,7 @@ export const Phrase2Trip3 = styled.h1`
     }
 
     @media (max-width: 423px){
-        font-size: 3.3rem;
+        font-size: 3rem;
     }
 `
 
