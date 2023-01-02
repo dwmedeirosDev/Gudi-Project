@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ContainerContact = styled.section`
+export const Container_Contact = styled.section`
     display: flex;
     justify-content: space-evenly;
     margin: 30px 0 30px 0;
@@ -27,7 +27,7 @@ export const ImgContact = styled.img`
     width: 200px;
 `
 
-export const ContactText = styled.a`
+export const Contact_Text = styled.a`
     list-style: none;
     text-decoration: none;
     color: #005BD5;

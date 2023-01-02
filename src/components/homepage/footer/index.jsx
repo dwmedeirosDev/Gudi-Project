@@ -4,42 +4,42 @@ import Logo2 from "../../../assets/logo/logo2.png";
 
 export default function Footer(){
     return(
-        <S.ContainerContact>
+        <S.Container_Contact>
             <S.Contact>
                 <S.ImgContact src={Logo2}/>
-                <p><S.ContactText href="#">Sobre nós</S.ContactText></p>
-                <p><S.ContactText href="#">Mural de memórias</S.ContactText></p>
-                <p><S.ContactText href="#">Eventos Gudi</S.ContactText></p>
-                <p><S.ContactText href="#">Nosso blog</S.ContactText></p>
+                <p><S.Contact_Text href="#">Sobre nós</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Mural de memórias</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Eventos Gudi</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Nosso blog</S.Contact_Text></p>
             </S.Contact>
             <S.Contact>
                 <h3>Contato </h3>
-                <p><S.ContactText href="#">Sobre nós</S.ContactText></p>
-                <p><S.ContactText href="#">Mural de memórias</S.ContactText></p>
-                <p><S.ContactText href="#">Eventos Gudi</S.ContactText></p>
-                <p><S.ContactText href="#">Nosso blog</S.ContactText></p>
+                <p><S.Contact_Text href="#">Sobre nós</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Mural de memórias</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Eventos Gudi</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Nosso blog</S.Contact_Text></p>
             </S.Contact>
             <S.Contact>
                 <h3>Benefícios</h3>
-                <p><S.ContactText href="#">Conta digital Gudi</S.ContactText></p>
-                <p><S.ContactText href="#">Viaje com Milhas</S.ContactText></p>
-                <p><S.ContactText href="#">C6 Átomos</S.ContactText></p>
-                <p><S.ContactText href="#">ID Jovem</S.ContactText></p>
+                <p><S.Contact_Text href="#">Conta digital Gudi</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Viaje com Milhas</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">C6 Átomos</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">ID Jovem</S.Contact_Text></p>
             </S.Contact>
             <S.Contact>
                 <h3>Lugares</h3>
-                <p><S.ContactText href="#">O melhor do Brasil</S.ContactText></p>
-                <p><S.ContactText href="#">Cidades frequentes</S.ContactText></p>
-                <p><S.ContactText href="#">Pontos turísticos</S.ContactText></p>
-                <p><S.ContactText href="#">Restaurantes</S.ContactText></p>
+                <p><S.Contact_Text href="#">O melhor do Brasil</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Cidades frequentes</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Pontos turísticos</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Restaurantes</S.Contact_Text></p>
             </S.Contact>
             <S.Contact>
                 <h3>Curiosidades</h3>
-                <p><S.ContactText href="#">Cultura e tradições</S.ContactText></p>
-                <p><S.ContactText href="#">Pratos típicos</S.ContactText></p>
-                <p><S.ContactText href="#">Mitos brasileiros</S.ContactText></p>
-                <p><S.ContactText href="#">Carnaval</S.ContactText></p>
+                <p><S.Contact_Text href="#">Cultura e tradições</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Pratos típicos</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Mitos brasileiros</S.Contact_Text></p>
+                <p><S.Contact_Text href="#">Carnaval</S.Contact_Text></p>
             </S.Contact>
-        </S.ContainerContact>
+        </S.Container_Contact>
     )
 }
