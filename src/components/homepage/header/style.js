@@ -8,7 +8,7 @@ export const Header = styled.header`
 
 `
 
-export const FigureLogo = styled.figure`
+export const Figure_Logo = styled.figure`
     display: flex;
     align-items: center;
     margin-left: 3%;
@@ -36,7 +36,7 @@ export const Navbar = styled.nav`
     margin-right: 2%;
 `
 
-export const MainMenu = styled.ul`
+export const Main_Menu = styled.ul`
     width: 30vw;
     display: flex;
     justify-content: space-evenly;
@@ -47,7 +47,7 @@ export const MainMenu = styled.ul`
 
 `
 
-export const MenuLi = styled.li`
+export const Menu_Li = styled.li`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ export const Schedule1 = styled.button`
     }
 `
 
-export const MenuHamburguer = styled.img`
+export const Menu_Hamburguer = styled.img`
     width: 40px;
     display: none;
 
