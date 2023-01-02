@@ -115,15 +115,15 @@ export default function Main(){
                     <S.RestaurantText>Restaurantes</S.RestaurantText>
                 </S.Restaurant>
             </S.ContainerOptions>
-            <S.ContainerContact>
-                <S.ContentContact>
+            <S.ContainerMessage>
+                <S.ContentMessage>
                     <S.ContactUs>Fale Conosco</S.ContactUs>
                     <S.InputEmail placeholder="Diga o seu melhor email" type="text" class="input"/>
                     <S.InputAbout placeholder="Assunto" type="text"/>
                     <S.InputMsg placeholder="Escreva sua mensagem" type="text" class="input"/>
                     <S.BtSend>Enviar</S.BtSend>
-                </S.ContentContact>
-            </S.ContainerContact>
+                </S.ContentMessage>
+            </S.ContainerMessage>
         </S.Main>
     )
 }

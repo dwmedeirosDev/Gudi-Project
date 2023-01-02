@@ -19,7 +19,7 @@ export const Background = styled.div`
     }
 `
 
-export const Search = styled.form`
+export const Search = styled.div`
     display: flex;
     flex-direction: column;
     height: 45vh;
@@ -620,7 +620,7 @@ export const RestaurantText = styled.p`
     color: #FFFFFF;
 `
 
-export const ContainerContact = styled.div`
+export const ContainerMessage = styled.div`
     width: 100%;
     height: 450px;
     background-color: #005BD5;
@@ -629,7 +629,7 @@ export const ContainerContact = styled.div`
     justify-content: center;
 `
 
-export const ContentContact = styled.form`
+export const ContentMessage = styled.form`
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
