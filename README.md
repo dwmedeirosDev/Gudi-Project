@@ -57,7 +57,7 @@ $ npm run start
 ---
 
  <div align="center">
- <img style="border-radius: 50%;" src="./src/assets/readme/perfil.png" width="100px;" alt=""/>
+ <img style="border-radius: 50%;" src="./src/assets/readme/profile.png" width="100px;" alt=""/>
  <br />
  <b>David Medeiros - Front End Developer</b>
  <br />
