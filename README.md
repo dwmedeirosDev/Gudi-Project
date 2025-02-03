@@ -1,4 +1,4 @@
-## 💻 Sobre o projeto Gudi
+## 💻 Sobre o Projeto Gudi
 
 Projeto desenvolvido para fins de boas práticas, aprendizagem e candidatura a uma vaga de Desenvolvedor Front-End.
 
