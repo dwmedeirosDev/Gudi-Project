@@ -36,10 +36,10 @@ Antes de começar, você precisará ter as seguintes ferramentas instaladas em s
 
 ```bash
 # Clone este repositório
-$ git clone https://github.com/dwmedeirosDev/Gudi-Project.git
+$ git clone https://github.com/dwmedeirosDev/projeto-gudi-react.git
 
 # Acesse a pasta do projeto no terminal
-$ cd Gudi-Project
+$ cd projeto-gudi-react
 
 # Instale as dependências
 $ npm install
